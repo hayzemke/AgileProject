@@ -1,0 +1,17 @@
+/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/Agile_Project/AgileProject.Services/bin/Debug/net6.0/AgileProject.Services.deps.json
+/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/Agile_Project/AgileProject.Services/bin/Debug/net6.0/AgileProject.Services.dll
+/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/Agile_Project/AgileProject.Services/bin/Debug/net6.0/ref/AgileProject.Services.dll
+/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/Agile_Project/AgileProject.Services/bin/Debug/net6.0/AgileProject.Services.pdb
+/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/Agile_Project/AgileProject.Services/bin/Debug/net6.0/AgileProject.Data.dll
+/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/Agile_Project/AgileProject.Services/bin/Debug/net6.0/AgileProject.Models.dll
+/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/Agile_Project/AgileProject.Services/bin/Debug/net6.0/AgileProject.Models.pdb
+/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/Agile_Project/AgileProject.Services/bin/Debug/net6.0/AgileProject.Data.pdb
+/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/Agile_Project/AgileProject.Services/obj/Debug/net6.0/AgileProject.Services.csproj.AssemblyReference.cache
+/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/Agile_Project/AgileProject.Services/obj/Debug/net6.0/AgileProject.Services.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/Agile_Project/AgileProject.Services/obj/Debug/net6.0/AgileProject.Services.AssemblyInfoInputs.cache
+/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/Agile_Project/AgileProject.Services/obj/Debug/net6.0/AgileProject.Services.AssemblyInfo.cs
+/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/Agile_Project/AgileProject.Services/obj/Debug/net6.0/AgileProject.Services.csproj.CoreCompileInputs.cache
+/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/Agile_Project/AgileProject.Services/obj/Debug/net6.0/AgileProject.Services.csproj.CopyComplete
+/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/Agile_Project/AgileProject.Services/obj/Debug/net6.0/AgileProject.Services.dll
+/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/Agile_Project/AgileProject.Services/obj/Debug/net6.0/ref/AgileProject.Services.dll
+/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/Agile_Project/AgileProject.Services/obj/Debug/net6.0/AgileProject.Services.pdb
