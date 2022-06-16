@@ -5,5 +5,5 @@ using System.Threading.Tasks;
 
 public class CharacterServices : ICharacterService
 {
-
+    //* CRUD
 }
