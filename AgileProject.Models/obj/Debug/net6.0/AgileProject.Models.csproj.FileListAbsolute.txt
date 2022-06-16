@@ -1,12 +1,12 @@
-/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/Agile_Project/AgileProject.Models/bin/Debug/net6.0/AgileProject.Models.deps.json
-/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/Agile_Project/AgileProject.Models/bin/Debug/net6.0/AgileProject.Models.dll
-/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/Agile_Project/AgileProject.Models/bin/Debug/net6.0/ref/AgileProject.Models.dll
-/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/Agile_Project/AgileProject.Models/bin/Debug/net6.0/AgileProject.Models.pdb
-/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/Agile_Project/AgileProject.Models/obj/Debug/net6.0/AgileProject.Models.csproj.AssemblyReference.cache
-/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/Agile_Project/AgileProject.Models/obj/Debug/net6.0/AgileProject.Models.GeneratedMSBuildEditorConfig.editorconfig
-/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/Agile_Project/AgileProject.Models/obj/Debug/net6.0/AgileProject.Models.AssemblyInfoInputs.cache
-/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/Agile_Project/AgileProject.Models/obj/Debug/net6.0/AgileProject.Models.AssemblyInfo.cs
-/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/Agile_Project/AgileProject.Models/obj/Debug/net6.0/AgileProject.Models.csproj.CoreCompileInputs.cache
-/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/Agile_Project/AgileProject.Models/obj/Debug/net6.0/AgileProject.Models.dll
-/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/Agile_Project/AgileProject.Models/obj/Debug/net6.0/ref/AgileProject.Models.dll
-/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/Agile_Project/AgileProject.Models/obj/Debug/net6.0/AgileProject.Models.pdb
+/Users/zackkramer/Documents/Agile Project/AgileProject/AgileProject.Models/bin/Debug/net6.0/AgileProject.Models.deps.json
+/Users/zackkramer/Documents/Agile Project/AgileProject/AgileProject.Models/bin/Debug/net6.0/AgileProject.Models.dll
+/Users/zackkramer/Documents/Agile Project/AgileProject/AgileProject.Models/bin/Debug/net6.0/AgileProject.Models.pdb
+/Users/zackkramer/Documents/Agile Project/AgileProject/AgileProject.Models/obj/Debug/net6.0/AgileProject.Models.csproj.AssemblyReference.cache
+/Users/zackkramer/Documents/Agile Project/AgileProject/AgileProject.Models/obj/Debug/net6.0/AgileProject.Models.GeneratedMSBuildEditorConfig.editorconfig
+/Users/zackkramer/Documents/Agile Project/AgileProject/AgileProject.Models/obj/Debug/net6.0/AgileProject.Models.AssemblyInfoInputs.cache
+/Users/zackkramer/Documents/Agile Project/AgileProject/AgileProject.Models/obj/Debug/net6.0/AgileProject.Models.AssemblyInfo.cs
+/Users/zackkramer/Documents/Agile Project/AgileProject/AgileProject.Models/obj/Debug/net6.0/AgileProject.Models.csproj.CoreCompileInputs.cache
+/Users/zackkramer/Documents/Agile Project/AgileProject/AgileProject.Models/obj/Debug/net6.0/AgileProject.Models.dll
+/Users/zackkramer/Documents/Agile Project/AgileProject/AgileProject.Models/obj/Debug/net6.0/refint/AgileProject.Models.dll
+/Users/zackkramer/Documents/Agile Project/AgileProject/AgileProject.Models/obj/Debug/net6.0/AgileProject.Models.pdb
+/Users/zackkramer/Documents/Agile Project/AgileProject/AgileProject.Models/obj/Debug/net6.0/ref/AgileProject.Models.dll
