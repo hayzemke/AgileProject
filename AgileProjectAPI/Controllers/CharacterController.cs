@@ -13,6 +13,15 @@ public class CharacterController : ControllerBase
     {
         _logger = logger;
     }
-
+    [HttpGet]
+    public async Task<IActionResult> GetCharacterByID(int id)
+    {
+        var character = await _context.Character.FindASync(id);
+        if(character == null)
+        {
+            return NotFound();
+        }
+        return Ok(character);
+    }
     //* C R U D
 }
