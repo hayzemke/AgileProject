@@ -7,6 +7,9 @@ public class CharacterModel
 {
     public string FirstName { get; set; }
     public string LastName { get; set; }
+    public string Name { get {
+        return FirstName + LastName;
+    }}
     public int Age { get; set; }
     public bool IsEvil { get; set; }
 }

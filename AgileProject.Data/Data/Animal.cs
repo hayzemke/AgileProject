@@ -1,5 +1,5 @@
 
-public enum Animals
+public enum Animal
 {
     Pig = 1,
     Cow,

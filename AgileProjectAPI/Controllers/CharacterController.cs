@@ -8,13 +8,13 @@ using Microsoft.AspNetCore.Mvc;
 [Route("api/[controller]")]
 public class CharacterController : ControllerBase
 {
-    private readonly ILogger<CharacterController> _logger;
-    private readonly ApplicationDBContext _context;
+    private readonly ApplicationDbContext _context;
     private readonly ICharacterService _service;
 
-    public CharacterController(ICharacterService service)
+    public CharacterController(ICharacterService service, ApplicationDbContext context)
     {
         _service=service;
+        _context=context;
     }
 
     [HttpPost]
