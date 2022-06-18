@@ -5,5 +5,5 @@ using System.Threading.Tasks;
 
 public interface ICharacterService
 {
-
+    Task<bool> CreateCharacterAsync(CharacterModel model);
 }
