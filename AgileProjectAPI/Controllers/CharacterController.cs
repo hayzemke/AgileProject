@@ -10,10 +10,27 @@ public class CharacterController : ControllerBase
 {
     private readonly ILogger<CharacterController> _logger;
     private readonly ApplicationDBContext _context;
+    private readonly ICharacterService _service;
 
-    public CharacterController(ILogger<CharacterController> logger)
+    public CharacterController(ICharacterService service)
     {
-        _logger = logger;
+        _service=service;
+    }
+
+    [HttpPost]
+    public async Task<IActionResult> CreateCharacter ([FromForm] CharacterModel model)
+    {
+        if (ModelState.IsValid)
+            return BadRequest(ModelState);
+
+            var createdCharacter = await _service.CreateCharacterAsync(model);
+            if(createdCharacter)
+                return Ok("Character was created!");
+            
+            return BadRequest("Character was NOT created.");
+        {
+            
+        }
     }
     //Will be done by someone esle just a placeholder in this branch
     [HttpGet("Get Characters By ID")]
