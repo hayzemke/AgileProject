@@ -2,7 +2,6 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using AgileProject.Models.Models;
 using Microsoft.AspNetCore.Mvc;
 
 [Route("api/[controller]")]
@@ -36,7 +35,7 @@ public class CharacterController : ControllerBase
     [HttpGet("Get Characters By ID")]
     public async Task<IActionResult> GetCharacterByID(int id)
     {
-        var character = await _context.Character.FindAsync(id);
+        var character = await _context.Characters.FindAsync(id);
         if(character == null)
         {
             return NotFound();
@@ -69,14 +68,13 @@ public class CharacterController : ControllerBase
     [Route("{id}")]
     public async Task<IActionResult> DeleteCharacter([FromRoute] int id)
     {
-        var character = await _context.Character.FindAsync(id);
+        var character = await _context.Characters.FindAsync(id);
         if(character == null)
         {
             return NotFound();
         }
-        _context.Character.Remove(character);
+        _context.Characters.Remove(character);
         await _context.SaveChangesAsync();
         return Ok("Character was Deleted");
     }
-    //* C R U D
 }
