@@ -30,13 +30,13 @@ public class CharacterController : ControllerBase
 
         }
         //Will be done by someone esle just a placeholder in this branch
-        
+
     }
-     [HttpGet("{id}")]
+    [HttpGet("{id}")]
     public async Task<IActionResult> GetCharacterByID(int id)
     {
         var character = await _context.Characters.FindAsync(id);
-        if(character == null)
+        if (character == null)
         {
             return NotFound();
         }
@@ -48,7 +48,7 @@ public class CharacterController : ControllerBase
     public async Task<IActionResult> UpdateCharacter([FromForm] CharacterEdit model, [FromRoute] int id)
     {
         var oldCharacter = await _context.Characters.FindAsync(id);
-        if(oldCharacter == null)
+        if (oldCharacter == null)
         {
             return NotFound();
         }
@@ -56,12 +56,12 @@ public class CharacterController : ControllerBase
         {
             return BadRequest();
         }
-            oldCharacter.FirstName = model.FirstName;
-            oldCharacter.LastName = model.LastName;
-            oldCharacter.Age = model.Age;
-            oldCharacter.IsEvil = model.IsEvil;
-            oldCharacter.Animal = model.Animal;
-            oldCharacter.FarmerType = model.FarmerType;
+        oldCharacter.FirstName = model.FirstName;
+        oldCharacter.LastName = model.LastName;
+        oldCharacter.Age = model.Age;
+        oldCharacter.IsEvil = model.IsEvil;
+        oldCharacter.Animal = model.Animal;
+        oldCharacter.FarmerType = model.FarmerType;
 
         await _context.SaveChangesAsync();
         return Ok("Your character has been updated");
@@ -72,7 +72,7 @@ public class CharacterController : ControllerBase
     public async Task<IActionResult> DeleteCharacter([FromRoute] int id)
     {
         var character = await _context.Characters.FindAsync(id);
-        if(character == null)
+        if (character == null)
         {
             return NotFound();
         }
