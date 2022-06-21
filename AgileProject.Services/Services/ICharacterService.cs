@@ -8,4 +8,5 @@ public interface ICharacterService
     Task<IEnumerable<CharacterListItem>> GetCharacterListItemsAsync();
     //Task with angle brackets means its awaitable
     Task<bool> CreateCharacterAsync(CharacterModel model);
+    Task<CharacterDetails> GetCharacterDetailsAsync(int id);
 }
