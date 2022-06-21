@@ -1,0 +1,17 @@
+/Users/zackkramer/Documents/Agile Project/AgileProject/AgileProject.Services/obj/Debug/net6.0/AgileProject.Services.csproj.AssemblyReference.cache
+/Users/zackkramer/Documents/Agile Project/AgileProject/AgileProject.Services/obj/Debug/net6.0/AgileProject.Services.GeneratedMSBuildEditorConfig.editorconfig
+/Users/zackkramer/Documents/Agile Project/AgileProject/AgileProject.Services/obj/Debug/net6.0/AgileProject.Services.AssemblyInfoInputs.cache
+/Users/zackkramer/Documents/Agile Project/AgileProject/AgileProject.Services/obj/Debug/net6.0/AgileProject.Services.AssemblyInfo.cs
+/Users/zackkramer/Documents/Agile Project/AgileProject/AgileProject.Services/obj/Debug/net6.0/AgileProject.Services.csproj.CoreCompileInputs.cache
+/Users/zackkramer/Documents/Agile Project/AgileProject/AgileProject.Services/bin/Debug/net6.0/AgileProject.Services.deps.json
+/Users/zackkramer/Documents/Agile Project/AgileProject/AgileProject.Services/bin/Debug/net6.0/AgileProject.Services.dll
+/Users/zackkramer/Documents/Agile Project/AgileProject/AgileProject.Services/bin/Debug/net6.0/AgileProject.Services.pdb
+/Users/zackkramer/Documents/Agile Project/AgileProject/AgileProject.Services/bin/Debug/net6.0/AgileProject.Data.dll
+/Users/zackkramer/Documents/Agile Project/AgileProject/AgileProject.Services/bin/Debug/net6.0/AgileProject.Models.dll
+/Users/zackkramer/Documents/Agile Project/AgileProject/AgileProject.Services/bin/Debug/net6.0/AgileProject.Models.pdb
+/Users/zackkramer/Documents/Agile Project/AgileProject/AgileProject.Services/bin/Debug/net6.0/AgileProject.Data.pdb
+/Users/zackkramer/Documents/Agile Project/AgileProject/AgileProject.Services/obj/Debug/net6.0/AgileProject.Services.csproj.CopyComplete
+/Users/zackkramer/Documents/Agile Project/AgileProject/AgileProject.Services/obj/Debug/net6.0/AgileProject.Services.dll
+/Users/zackkramer/Documents/Agile Project/AgileProject/AgileProject.Services/obj/Debug/net6.0/refint/AgileProject.Services.dll
+/Users/zackkramer/Documents/Agile Project/AgileProject/AgileProject.Services/obj/Debug/net6.0/AgileProject.Services.pdb
+/Users/zackkramer/Documents/Agile Project/AgileProject/AgileProject.Services/obj/Debug/net6.0/ref/AgileProject.Services.dll

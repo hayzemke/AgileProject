@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
     public class GTLevel
     {
-        public LevelServices(List<Character> characters)
+        public void LevelServices(List<Character> characters)
         {
-                Character = characters;
+            
         }
 
         public int ID { get; set; }

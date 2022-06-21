@@ -89,7 +89,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/zackkramer/Documents/Agile Project/AgileProject/AgileProject.Data/AgileProject.Data.csproj": {
+                "projectPath": "/Users/zackkramer/Documents/Agile Project/AgileProject/AgileProject.Data/AgileProject.Data.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
