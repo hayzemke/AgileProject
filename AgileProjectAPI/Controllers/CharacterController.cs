@@ -10,32 +10,32 @@ public class CharacterController : ControllerBase
     // private readonly ApplicationDbContext _context;
     private readonly ICharacterService _service;
 
-    public CharacterController(ICharacterService service, ApplicationDbContext context)
+    public CharacterController(ICharacterService service)
     {
-        _service=service;
-        _context=context;
+        _service = service;
     }
 
     [HttpPost]
-    public async Task<IActionResult> CreateCharacter ([FromForm] CharacterModel model)
+    public async Task<IActionResult> CreateCharacter([FromForm] CharacterModel model)
     {
         if (ModelState.IsValid)
             return BadRequest(ModelState);
 
-            var createdCharacter = await _service.CreateCharacterAsync(model);
-            if(createdCharacter)
-                return Ok("Character was created!");
-            
-            return BadRequest("Character was NOT created.");
+        var createdCharacter = await _service.CreateCharacterAsync(model);
+        if (createdCharacter)
+            return Ok("Character was created!");
+
+        return BadRequest("Character was NOT created.");
         {
-            
+
         }
+        //Will be done by someone esle just a placeholder in this branch
+        
     }
-    //Will be done by someone esle just a placeholder in this branch
-    [HttpGet("Get Characters By ID")]
+     [HttpGet("{id}")]
     public async Task<IActionResult> GetCharacterByID(int id)
     {
-        var character = await _context.Characters.FindAsync(id);
+        var character = await _service.Character.FindAsync(id);
         if(character == null)
         {
             return NotFound();
@@ -56,10 +56,13 @@ public class CharacterController : ControllerBase
         {
             return BadRequest();
         }
-        if(!string.IsNullOrEmpty(model.Name))
-        {
-            oldCharacter.Name = model.Name;
-        }
+            oldCharacter.FirstName = model.FirstName;
+            oldCharacter.LastName = model.LastName;
+            oldCharacter.Age = model.Age;
+            oldCharacter.IsEvil = model.IsEvil;
+            oldCharacter.Animal = model.Animal;
+            oldCharacter.FarmerType = model.FarmerType;
+
         await _context.SaveChangesAsync();
         return Ok("Your character has been updated");
     }
@@ -78,4 +81,12 @@ public class CharacterController : ControllerBase
         return Ok("Character was Deleted");
     }
     //* C R U D
+    [HttpGet]
+    public async Task<ActionResult> GetAllCharacters()
+    {
+        var characters = await _service.GetCharacterListItemsAsync();
+        return Ok(characters);
+        // _service is doing the conversion from the characterlist item
+        //Think of the controller as an office space call center
+    }
 }

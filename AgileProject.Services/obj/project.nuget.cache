@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "5uVeVxQbdEd4zaMYmXE1DQgwx2IIUjfDuuFiKpyBaZcCQvhtxfe+mz4DKZXAefPPIIzvAd3s9PhhDrwiZM95Ow==",
+=======
+  "dgSpecHash": "k6SdNTK9LdlDAcUR+bywXsgnSemM6vU+EUyG4M9rvVnO/GUCFroRfc1rq/4P6OHvjB0nAghvGmyW3Mf7OS5uyQ==",
+>>>>>>> 32b4ba38e204ce4819e2c016d61e759b3a539531
   "success": true,
   "projectFilePath": "/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/Agile_Project/AgileProject.Services/AgileProject.Services.csproj",
   "expectedPackageFiles": [

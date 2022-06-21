@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 
 public class CharacterServices : ICharacterService
 {
@@ -12,14 +13,16 @@ public class CharacterServices : ICharacterService
     }
     private readonly int _characterID;
 
-    public async Task<IEnumerable<CharacterListItem>> GetPostListItemsAsync()
+    public async Task<IEnumerable<CharacterListItem>> GetCharacterListItemsAsync()
         {
             var characters = await _context.Characters
-            .Where(entity => entity.ID == _characterID)
-            .Select(entity => new characters
+            // .Where(entity => entity.ID == _characterID)
+            // ^Not needed because we dont have a user table like we did in eleven note, i.e. we dont need to query therough i.d's
+            .Select(entity => new CharacterListItem
             {
                 Id = entity.ID,
-                Title = entity.Title,
+                FirstName = entity.FirstName,
+                LastName = entity.LastName
             })
             .ToListAsync();
         return characters;
@@ -39,9 +42,11 @@ public class CharacterServices : ICharacterService
         var numberOfChanges = await _context.SaveChangesAsync();
         return numberOfChanges == 1;
     }
-
-    public Task<IEnumerable<CharacterListItem>> GetCharacterListItemsAsync()
-    {
-        throw new NotImplementedException();
-    }
 }
+
+//CharacterModel is being passed through SaveChangesAsync
+
+//CharacterEdit is like a view model
+
+
+//Think of the listitem object as your gmail, the minimum amount of data to get your eye or get information across

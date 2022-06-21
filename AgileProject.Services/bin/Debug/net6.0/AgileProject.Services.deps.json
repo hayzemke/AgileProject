@@ -6,17 +6,14 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "AgileProject.Models/1.0.0": {
-<<<<<<< HEAD
-        "runtime": {
-          "AgileProject.Models.dll": {}
-        }
-=======
+      "AgileProject.Services/1.0.0": {
         "dependencies": {
-          "AgileProject.Data": "1.0.0"
+          "AgileProject.Data": "1.0.0",
+          "AgileProject.Models": "1.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.6"
         },
         "runtime": {
-          "AgileProject.Models.dll": {}
+          "AgileProject.Services.dll": {}
         }
       },
       "Microsoft.CSharp/4.5.0": {},
@@ -468,17 +465,22 @@
         "runtime": {
           "AgileProject.Data.dll": {}
         }
->>>>>>> 32b4ba38e204ce4819e2c016d61e759b3a539531
+      },
+      "AgileProject.Models/1.0.0": {
+        "dependencies": {
+          "AgileProject.Data": "1.0.0"
+        },
+        "runtime": {
+          "AgileProject.Models.dll": {}
+        }
       }
     }
   },
   "libraries": {
-    "AgileProject.Models/1.0.0": {
+    "AgileProject.Services/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
-<<<<<<< HEAD
-=======
     },
     "Microsoft.CSharp/4.5.0": {
       "type": "package",
@@ -764,7 +766,11 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
->>>>>>> 32b4ba38e204ce4819e2c016d61e759b3a539531
+    },
+    "AgileProject.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

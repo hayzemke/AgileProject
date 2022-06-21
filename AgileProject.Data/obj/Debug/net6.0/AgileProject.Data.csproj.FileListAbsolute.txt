@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/Agile_Project/AgileProject.Data/bin/Debug/net6.0/AgileProject.Data.deps.json
 /Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/Agile_Project/AgileProject.Data/bin/Debug/net6.0/AgileProject.Data.runtimeconfig.json
 /Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/Agile_Project/AgileProject.Data/bin/Debug/net6.0/AgileProject.Data.dll
@@ -12,3 +13,19 @@
 /Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/Agile_Project/AgileProject.Data/obj/Debug/net6.0/AgileProject.Data.pdb
 /Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/Agile_Project/AgileProject.Data/obj/Debug/net6.0/AgileProject.Data.genruntimeconfig.cache
 /Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/Agile_Project/AgileProject.Data/obj/Debug/net6.0/ref/AgileProject.Data.dll
+=======
+/Users/zackkramer/Documents/Agile Project/AgileProject/AgileProject.Data/bin/Debug/net6.0/AgileProject.Data.deps.json
+/Users/zackkramer/Documents/Agile Project/AgileProject/AgileProject.Data/bin/Debug/net6.0/AgileProject.Data.runtimeconfig.json
+/Users/zackkramer/Documents/Agile Project/AgileProject/AgileProject.Data/bin/Debug/net6.0/AgileProject.Data.dll
+/Users/zackkramer/Documents/Agile Project/AgileProject/AgileProject.Data/bin/Debug/net6.0/AgileProject.Data.pdb
+/Users/zackkramer/Documents/Agile Project/AgileProject/AgileProject.Data/obj/Debug/net6.0/AgileProject.Data.csproj.AssemblyReference.cache
+/Users/zackkramer/Documents/Agile Project/AgileProject/AgileProject.Data/obj/Debug/net6.0/AgileProject.Data.GeneratedMSBuildEditorConfig.editorconfig
+/Users/zackkramer/Documents/Agile Project/AgileProject/AgileProject.Data/obj/Debug/net6.0/AgileProject.Data.AssemblyInfoInputs.cache
+/Users/zackkramer/Documents/Agile Project/AgileProject/AgileProject.Data/obj/Debug/net6.0/AgileProject.Data.AssemblyInfo.cs
+/Users/zackkramer/Documents/Agile Project/AgileProject/AgileProject.Data/obj/Debug/net6.0/AgileProject.Data.csproj.CoreCompileInputs.cache
+/Users/zackkramer/Documents/Agile Project/AgileProject/AgileProject.Data/obj/Debug/net6.0/AgileProject.Data.dll
+/Users/zackkramer/Documents/Agile Project/AgileProject/AgileProject.Data/obj/Debug/net6.0/refint/AgileProject.Data.dll
+/Users/zackkramer/Documents/Agile Project/AgileProject/AgileProject.Data/obj/Debug/net6.0/AgileProject.Data.pdb
+/Users/zackkramer/Documents/Agile Project/AgileProject/AgileProject.Data/obj/Debug/net6.0/AgileProject.Data.genruntimeconfig.cache
+/Users/zackkramer/Documents/Agile Project/AgileProject/AgileProject.Data/obj/Debug/net6.0/ref/AgileProject.Data.dll
+>>>>>>> 32b4ba38e204ce4819e2c016d61e759b3a539531
