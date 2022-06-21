@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "/Users/zackkramer/.nuget/packages/": {}
+    "/Users/hales/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/zackkramer/Documents/Agile Project/AgileProject/AgileProject.Models/AgileProject.Models.csproj",
+      "projectUniqueName": "/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/Agile_Project/AgileProject.Models/AgileProject.Models.csproj",
       "projectName": "AgileProject.Models",
-      "projectPath": "/Users/zackkramer/Documents/Agile Project/AgileProject/AgileProject.Models/AgileProject.Models.csproj",
-      "packagesPath": "/Users/zackkramer/.nuget/packages/",
-      "outputPath": "/Users/zackkramer/Documents/Agile Project/AgileProject/AgileProject.Models/obj/",
+      "projectPath": "/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/Agile_Project/AgileProject.Models/AgileProject.Models.csproj",
+      "packagesPath": "/Users/hales/.nuget/packages/",
+      "outputPath": "/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/Agile_Project/AgileProject.Models/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/zackkramer/.nuget/NuGet/NuGet.Config"
+        "/Users/hales/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -58,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.200/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
       }
     }
   }

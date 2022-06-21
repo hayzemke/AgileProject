@@ -1,0 +1,5 @@
+/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/Agile_Project/AgileProject.Services/obj/Debug/net6.0/AgileProject.Services.csproj.AssemblyReference.cache
+/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/Agile_Project/AgileProject.Services/obj/Debug/net6.0/AgileProject.Services.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/Agile_Project/AgileProject.Services/obj/Debug/net6.0/AgileProject.Services.AssemblyInfoInputs.cache
+/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/Agile_Project/AgileProject.Services/obj/Debug/net6.0/AgileProject.Services.AssemblyInfo.cs
+/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/Agile_Project/AgileProject.Services/obj/Debug/net6.0/AgileProject.Services.csproj.CoreCompileInputs.cache

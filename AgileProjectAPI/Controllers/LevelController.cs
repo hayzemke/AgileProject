@@ -7,11 +7,11 @@ using Microsoft.AspNetCore.Mvc;
 [Route("api/[controller]")]
 public class LevelController : ControllerBase
 {
-    private readonly ILogger<LevelController> _logger;
+    private readonly ILevelService _levelService;
 
-    public LevelController(ILogger<LevelController> logger)
+    public LevelController(ILevelService levelService)
     {
-        _logger = logger;
+        _levelService = levelService;
     }
 
     //* Update - increase or decrease level
@@ -32,6 +32,5 @@ public class LevelController : ControllerBase
         {
             return false; 
         }
-
     }
 }

@@ -16,13 +16,13 @@ public class CharacterServices : ICharacterService
         {
             var characters = await _context.Characters
             .Where(entity => entity.ID == _characterID)
-            .Select(entity => new PostListItem
+            .Select(entity => new characters
             {
                 Id = entity.ID,
                 Title = entity.Title,
             })
             .ToListAsync();
-        return posts;
+        return characters;
         }
 
     public async Task<bool> CreateCharacterAsync(CharacterModel model)
@@ -40,5 +40,8 @@ public class CharacterServices : ICharacterService
         return numberOfChanges == 1;
     }
 
-    
+    public Task<IEnumerable<CharacterListItem>> GetCharacterListItemsAsync()
+    {
+        throw new NotImplementedException();
+    }
 }

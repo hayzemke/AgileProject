@@ -6,18 +6,18 @@ using System.Threading.Tasks;
 
     public class GTLevel
     {
-        public LevelServices(List<Character> characters)
+        public GTLevel(List<Character> characters)
         {
-                Character = characters;
+                Characters = characters;
         }
 
         public int ID { get; set; }
-        public List<Character> characters { get; set; }= new List<Character>();
+        public List<Character> Characters { get; set; }= new List<Character>();
         public bool isComplete {get; private set; }
 
         public bool LevelUp()
         {
-            if (characters.Count <= 0)
+            if (Characters.Count <= 0)
             {
                 isComplete = true;
                 return isComplete;

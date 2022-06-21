@@ -2,13 +2,12 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using AgileProject.Models.Models;
 using Microsoft.AspNetCore.Mvc;
 
 [Route("api/[controller]")]
 public class CharacterController : ControllerBase
 {
-    private readonly ApplicationDbContext _context;
+    // private readonly ApplicationDbContext _context;
     private readonly ICharacterService _service;
 
     public CharacterController(ICharacterService service, ApplicationDbContext context)
