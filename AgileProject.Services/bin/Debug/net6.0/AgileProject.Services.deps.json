@@ -10,6 +10,7 @@
         "dependencies": {
           "AgileProject.Data": "1.0.0",
           "AgileProject.Models": "1.0.0",
+          "Microsoft.EntityFrameworkCore.Analyzers": "6.0.6",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.6"
         },
         "runtime": {
@@ -467,6 +468,9 @@
         }
       },
       "AgileProject.Models/1.0.0": {
+        "dependencies": {
+          "AgileProject.Data": "1.0.0"
+        },
         "runtime": {
           "AgileProject.Models.dll": {}
         }

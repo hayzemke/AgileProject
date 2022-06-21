@@ -1,15 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "Rfy2DMUsS/0RPC602SAb1aFHxcpJeD9Z5wkAL8mPGukALJH/GUzPDkB26ebOMOYOH+BVEM5WJViFQjXBPAsVkA==",
+  "dgSpecHash": "cIjtrEbZWJ807g6jQ99KVc0zRPKm3qCfb2zzUUZ1pQXAYVsvW8w1Sd/I4Ej2q1zewxITMO6H7GotwGSKrtZ8ng==",
   "success": true,
   "projectFilePath": "/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/Agile_Project/AgileProject.Data/AgileProject.Data.csproj",
   "expectedPackageFiles": [
+    "/Users/hales/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/hales/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
     "/Users/hales/.nuget/packages/microsoft.data.sqlclient/2.1.4/microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "/Users/hales/.nuget/packages/microsoft.data.sqlclient.sni.runtime/2.1.1/microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "/Users/hales/.nuget/packages/microsoft.entityframeworkcore/6.0.6/microsoft.entityframeworkcore.6.0.6.nupkg.sha512",
     "/Users/hales/.nuget/packages/microsoft.entityframeworkcore.abstractions/6.0.6/microsoft.entityframeworkcore.abstractions.6.0.6.nupkg.sha512",
     "/Users/hales/.nuget/packages/microsoft.entityframeworkcore.analyzers/6.0.6/microsoft.entityframeworkcore.analyzers.6.0.6.nupkg.sha512",
+    "/Users/hales/.nuget/packages/microsoft.entityframeworkcore.design/6.0.6/microsoft.entityframeworkcore.design.6.0.6.nupkg.sha512",
     "/Users/hales/.nuget/packages/microsoft.entityframeworkcore.relational/6.0.6/microsoft.entityframeworkcore.relational.6.0.6.nupkg.sha512",
     "/Users/hales/.nuget/packages/microsoft.entityframeworkcore.sqlserver/6.0.6/microsoft.entityframeworkcore.sqlserver.6.0.6.nupkg.sha512",
     "/Users/hales/.nuget/packages/microsoft.extensions.caching.abstractions/6.0.0/microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",

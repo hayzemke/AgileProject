@@ -614,6 +614,9 @@
       "AgileProject.Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "AgileProject.Data": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/AgileProject.Models.dll": {}
         },
@@ -1801,6 +1804,7 @@
     "net6.0": [
       "AgileProject.Data >= 1.0.0",
       "AgileProject.Models >= 1.0.0",
+      "Microsoft.EntityFrameworkCore.Analyzers >= 6.0.6",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.6"
     ]
   },
@@ -1848,6 +1852,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "Microsoft.EntityFrameworkCore.Analyzers": {
+            "target": "Package",
+            "version": "[6.0.6, )"
+          },
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
             "version": "[6.0.6, )"
@@ -1868,7 +1876,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.102/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
       }
     }
   }
