@@ -19,7 +19,7 @@ public class CharacterController : ControllerBase
     [HttpPost]
     public async Task<IActionResult> CreateCharacter([FromForm] CharacterModel model)
     {
-        if (ModelState.IsValid)
+        if (!ModelState.IsValid)
             return BadRequest(ModelState);
 
         var createdCharacter = await _service.CreateCharacterAsync(model);
