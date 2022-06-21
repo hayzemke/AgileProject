@@ -35,7 +35,7 @@ public class CharacterController : ControllerBase
      [HttpGet("{id}")]
     public async Task<IActionResult> GetCharacterByID(int id)
     {
-        var character = await _service.Character.FindAsync(id);
+        var character = await _context.Character.FindAsync(id);
         if(character == null)
         {
             return NotFound();
