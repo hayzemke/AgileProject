@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/Agile_Project/AgileProject.Data/AgileProject.Data.csproj": {}
+    "C:\\144_immersions\\Agile\\AgileProject\\AgileProject.Data\\AgileProject.Data.csproj": {}
   },
   "projects": {
-    "/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/Agile_Project/AgileProject.Data/AgileProject.Data.csproj": {
+    "C:\\144_immersions\\Agile\\AgileProject\\AgileProject.Data\\AgileProject.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/Agile_Project/AgileProject.Data/AgileProject.Data.csproj",
+        "projectUniqueName": "C:\\144_immersions\\Agile\\AgileProject\\AgileProject.Data\\AgileProject.Data.csproj",
         "projectName": "AgileProject.Data",
-        "projectPath": "/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/Agile_Project/AgileProject.Data/AgileProject.Data.csproj",
-        "packagesPath": "/Users/hales/.nuget/packages/",
-        "outputPath": "/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/Agile_Project/AgileProject.Data/obj/",
+        "projectPath": "C:\\144_immersions\\Agile\\AgileProject\\AgileProject.Data\\AgileProject.Data.csproj",
+        "packagesPath": "C:\\Users\\Hanyo\\.nuget\\packages\\",
+        "outputPath": "C:\\144_immersions\\Agile\\AgileProject\\AgileProject.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/hales/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Hanyo\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -64,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

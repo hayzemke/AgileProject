@@ -42,6 +42,24 @@ public class CharacterServices : ICharacterService
         var numberOfChanges = await _context.SaveChangesAsync();
         return numberOfChanges == 1;
     }
+
+    public async Task<CharacterDetails> GetCharacterDetailsAsync(int id)
+    {
+        var character =  await _context.Characters.FindAsync(id);
+        if(character is null)
+        {
+            return null;
+        }
+        return new CharacterDetails{
+            FirstName = character.FirstName,
+            LastName = character.LastName,
+            Age = character.Age,
+            IsEvil = character.IsEvil,
+            Animal = character.Animal,
+            FarmerType = character.FarmerType,
+            Level = character.Level,
+        };
+    }
 }
 
 //CharacterModel is being passed through SaveChangesAsync

@@ -7,11 +7,6 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "AgileProject.Models/1.0.0": {
-<<<<<<< HEAD
-        "runtime": {
-          "AgileProject.Models.dll": {}
-        }
-=======
         "dependencies": {
           "AgileProject.Data": "1.0.0"
         },
@@ -59,22 +54,22 @@
           "runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll": {
             "rid": "win-arm",
             "assetType": "native",
-            "fileVersion": "0.0.0.0"
+            "fileVersion": "2.1.1.0"
           },
           "runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll": {
             "rid": "win-arm64",
             "assetType": "native",
-            "fileVersion": "0.0.0.0"
+            "fileVersion": "2.1.1.0"
           },
           "runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll": {
             "rid": "win-x64",
             "assetType": "native",
-            "fileVersion": "0.0.0.0"
+            "fileVersion": "2.1.1.0"
           },
           "runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll": {
             "rid": "win-x86",
             "assetType": "native",
-            "fileVersion": "0.0.0.0"
+            "fileVersion": "2.1.1.0"
           }
         }
       },
@@ -468,7 +463,6 @@
         "runtime": {
           "AgileProject.Data.dll": {}
         }
->>>>>>> 32b4ba38e204ce4819e2c016d61e759b3a539531
       }
     }
   },
@@ -477,8 +471,6 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
-<<<<<<< HEAD
-=======
     },
     "Microsoft.CSharp/4.5.0": {
       "type": "package",
@@ -764,7 +756,6 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
->>>>>>> 32b4ba38e204ce4819e2c016d61e759b3a539531
     }
   }
 }

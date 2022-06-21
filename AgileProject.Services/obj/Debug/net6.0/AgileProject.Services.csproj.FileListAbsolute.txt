@@ -23,3 +23,20 @@
 /Users/zackkramer/Documents/Agile Project/AgileProject/AgileProject.Services/obj/Debug/net6.0/AgileProject.Services.pdb
 /Users/zackkramer/Documents/Agile Project/AgileProject/AgileProject.Services/obj/Debug/net6.0/ref/AgileProject.Services.dll
 >>>>>>> 32b4ba38e204ce4819e2c016d61e759b3a539531
+C:\144_immersions\Agile\AgileProject\AgileProject.Services\bin\Debug\net6.0\AgileProject.Services.deps.json
+C:\144_immersions\Agile\AgileProject\AgileProject.Services\bin\Debug\net6.0\AgileProject.Services.dll
+C:\144_immersions\Agile\AgileProject\AgileProject.Services\bin\Debug\net6.0\AgileProject.Services.pdb
+C:\144_immersions\Agile\AgileProject\AgileProject.Services\bin\Debug\net6.0\AgileProject.Data.dll
+C:\144_immersions\Agile\AgileProject\AgileProject.Services\bin\Debug\net6.0\AgileProject.Models.dll
+C:\144_immersions\Agile\AgileProject\AgileProject.Services\bin\Debug\net6.0\AgileProject.Models.pdb
+C:\144_immersions\Agile\AgileProject\AgileProject.Services\bin\Debug\net6.0\AgileProject.Data.pdb
+C:\144_immersions\Agile\AgileProject\AgileProject.Services\obj\Debug\net6.0\AgileProject.Services.csproj.AssemblyReference.cache
+C:\144_immersions\Agile\AgileProject\AgileProject.Services\obj\Debug\net6.0\AgileProject.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\144_immersions\Agile\AgileProject\AgileProject.Services\obj\Debug\net6.0\AgileProject.Services.AssemblyInfoInputs.cache
+C:\144_immersions\Agile\AgileProject\AgileProject.Services\obj\Debug\net6.0\AgileProject.Services.AssemblyInfo.cs
+C:\144_immersions\Agile\AgileProject\AgileProject.Services\obj\Debug\net6.0\AgileProject.Services.csproj.CoreCompileInputs.cache
+C:\144_immersions\Agile\AgileProject\AgileProject.Services\obj\Debug\net6.0\AgileProject.Services.csproj.CopyComplete
+C:\144_immersions\Agile\AgileProject\AgileProject.Services\obj\Debug\net6.0\AgileProject.Services.dll
+C:\144_immersions\Agile\AgileProject\AgileProject.Services\obj\Debug\net6.0\refint\AgileProject.Services.dll
+C:\144_immersions\Agile\AgileProject\AgileProject.Services\obj\Debug\net6.0\AgileProject.Services.pdb
+C:\144_immersions\Agile\AgileProject\AgileProject.Services\obj\Debug\net6.0\ref\AgileProject.Services.dll

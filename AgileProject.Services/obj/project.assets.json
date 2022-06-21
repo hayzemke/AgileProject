@@ -1809,19 +1809,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/hales/.nuget/packages/": {}
+    "C:\\Users\\Hanyo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/Agile_Project/AgileProject.Services/AgileProject.Services.csproj",
+      "projectUniqueName": "C:\\144_immersions\\Agile\\AgileProject\\AgileProject.Services\\AgileProject.Services.csproj",
       "projectName": "AgileProject.Services",
-      "projectPath": "/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/Agile_Project/AgileProject.Services/AgileProject.Services.csproj",
-      "packagesPath": "/Users/hales/.nuget/packages/",
-      "outputPath": "/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/Agile_Project/AgileProject.Services/obj/",
+      "projectPath": "C:\\144_immersions\\Agile\\AgileProject\\AgileProject.Services\\AgileProject.Services.csproj",
+      "packagesPath": "C:\\Users\\Hanyo\\.nuget\\packages\\",
+      "outputPath": "C:\\144_immersions\\Agile\\AgileProject\\AgileProject.Services\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/hales/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Hanyo\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -1833,11 +1833,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/Agile_Project/AgileProject.Data/AgileProject.Data.csproj": {
-              "projectPath": "/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/Agile_Project/AgileProject.Data/AgileProject.Data.csproj"
+            "C:\\144_immersions\\Agile\\AgileProject\\AgileProject.Data\\AgileProject.Data.csproj": {
+              "projectPath": "C:\\144_immersions\\Agile\\AgileProject\\AgileProject.Data\\AgileProject.Data.csproj"
             },
-            "/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/Agile_Project/AgileProject.Models/AgileProject.Models.csproj": {
-              "projectPath": "/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/Agile_Project/AgileProject.Models/AgileProject.Models.csproj"
+            "C:\\144_immersions\\Agile\\AgileProject\\AgileProject.Models\\AgileProject.Models.csproj": {
+              "projectPath": "C:\\144_immersions\\Agile\\AgileProject\\AgileProject.Models\\AgileProject.Models.csproj"
             }
           }
         }
@@ -1876,8 +1876,16 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\144_immersions\\Agile\\AgileProject\\AgileProject.Services\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

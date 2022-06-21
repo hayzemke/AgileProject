@@ -7,12 +7,13 @@ using Microsoft.AspNetCore.Mvc;
 [Route("api/[controller]")]
 public class CharacterController : ControllerBase
 {
-    // private readonly ApplicationDbContext _context;
+     private readonly ApplicationDbContext _context;
     private readonly ICharacterService _service;
 
-    public CharacterController(ICharacterService service)
+    public CharacterController(ICharacterService service, ApplicationDbContext context)
     {
         _service = service;
+        _context = context;
     }
 
     [HttpPost]
@@ -35,8 +36,8 @@ public class CharacterController : ControllerBase
     [HttpGet("{id}")]
     public async Task<IActionResult> GetCharacterByID(int id)
     {
-        var character = await _context.Characters.FindAsync(id);
-        if (character == null)
+        var character = await _service.GetCharacterDetailsAsync(id);
+        if(character == null)
         {
             return NotFound();
         }
