@@ -14,19 +14,19 @@ public class CharacterServices : ICharacterService
     private readonly int _characterID;
 
     public async Task<IEnumerable<CharacterListItem>> GetCharacterListItemsAsync()
+    {
+        var characters = await _context.Characters
+        // .Where(entity => entity.ID == _characterID)
+        // ^Not needed because we dont have a user table like we did in eleven note, i.e. we dont need to query therough i.d's
+        .Select(entity => new CharacterListItem
         {
-            var characters = await _context.Characters
-            // .Where(entity => entity.ID == _characterID)
-            // ^Not needed because we dont have a user table like we did in eleven note, i.e. we dont need to query therough i.d's
-            .Select(entity => new CharacterListItem
-            {
-                Id = entity.ID,
-                FirstName = entity.FirstName,
-                LastName = entity.LastName
-            })
-            .ToListAsync();
+            Id = entity.ID,
+            FirstName = entity.FirstName,
+            LastName = entity.LastName
+        })
+        .ToListAsync();
         return characters;
-        }
+    }
 
     public async Task<bool> CreateCharacterAsync(CharacterModel model)
     {
@@ -35,7 +35,10 @@ public class CharacterServices : ICharacterService
             FirstName = model.FirstName,
             LastName = model.LastName,
             Age = model.Age,
-            IsEvil = model.IsEvil
+            IsEvil = model.IsEvil,
+            Animal = model.Animal,
+            FarmerType = model.FarmerType,
+            // Level = model.Level
         };
 
         _context.Characters.Add(character);
@@ -45,12 +48,13 @@ public class CharacterServices : ICharacterService
 
     public async Task<CharacterDetails> GetCharacterDetailsAsync(int id)
     {
-        var character =  await _context.Characters.FindAsync(id);
-        if(character is null)
+        var character = await _context.Characters.FindAsync(id);
+        if (character is null)
         {
             return null;
         }
-        return new CharacterDetails{
+        return new CharacterDetails
+        {
             FirstName = character.FirstName,
             LastName = character.LastName,
             Age = character.Age,

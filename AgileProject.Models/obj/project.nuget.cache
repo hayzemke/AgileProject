@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "N2DQd7UZf5S3v7qh5HYnVQf/7tSe4RSeQ5b5MMXg49YL8uWIwbNuLlYG18QakiLcFIA+OrLTqz4dMNLNz10QrA==",
+  "dgSpecHash": "cyI7CZao3LhEzYLce+OPtgzx5GsWlMUbvwqLXm9163k1Wgh0DpLmF6NOSv2C1dZFpBqbXT5I+XFboeVBXa9fdQ==",
   "success": true,
-  "projectFilePath": "/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/Agile_Project/AgileProject.Models/AgileProject.Models.csproj",
+  "projectFilePath": "/Users/hales/Desktop/1150/Assignments/144_BlueBadge/Agile_Project/AgileProject.Models/AgileProject.Models.csproj",
   "expectedPackageFiles": [
     "/Users/hales/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
     "/Users/hales/.nuget/packages/microsoft.data.sqlclient/2.1.4/microsoft.data.sqlclient.2.1.4.nupkg.sha512",

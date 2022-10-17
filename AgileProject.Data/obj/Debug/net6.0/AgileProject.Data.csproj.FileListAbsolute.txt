@@ -43,3 +43,17 @@ C:/144_immersions/Agile/AgileProject/AgileProject.Data/obj/Debug/net6.0/ref/Agil
 /Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/Agile_Project/AgileProject.Data/obj/Debug/net6.0/AgileProject.Data.pdb
 /Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/Agile_Project/AgileProject.Data/obj/Debug/net6.0/AgileProject.Data.genruntimeconfig.cache
 /Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/Agile_Project/AgileProject.Data/obj/Debug/net6.0/ref/AgileProject.Data.dll
+/Users/hales/Desktop/1150/Assignments/144_BlueBadge/Agile_Project/AgileProject.Data/bin/Debug/net6.0/AgileProject.Data.deps.json
+/Users/hales/Desktop/1150/Assignments/144_BlueBadge/Agile_Project/AgileProject.Data/bin/Debug/net6.0/AgileProject.Data.runtimeconfig.json
+/Users/hales/Desktop/1150/Assignments/144_BlueBadge/Agile_Project/AgileProject.Data/bin/Debug/net6.0/AgileProject.Data.dll
+/Users/hales/Desktop/1150/Assignments/144_BlueBadge/Agile_Project/AgileProject.Data/bin/Debug/net6.0/AgileProject.Data.pdb
+/Users/hales/Desktop/1150/Assignments/144_BlueBadge/Agile_Project/AgileProject.Data/obj/Debug/net6.0/AgileProject.Data.csproj.AssemblyReference.cache
+/Users/hales/Desktop/1150/Assignments/144_BlueBadge/Agile_Project/AgileProject.Data/obj/Debug/net6.0/AgileProject.Data.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hales/Desktop/1150/Assignments/144_BlueBadge/Agile_Project/AgileProject.Data/obj/Debug/net6.0/AgileProject.Data.AssemblyInfoInputs.cache
+/Users/hales/Desktop/1150/Assignments/144_BlueBadge/Agile_Project/AgileProject.Data/obj/Debug/net6.0/AgileProject.Data.AssemblyInfo.cs
+/Users/hales/Desktop/1150/Assignments/144_BlueBadge/Agile_Project/AgileProject.Data/obj/Debug/net6.0/AgileProject.Data.csproj.CoreCompileInputs.cache
+/Users/hales/Desktop/1150/Assignments/144_BlueBadge/Agile_Project/AgileProject.Data/obj/Debug/net6.0/AgileProject.Data.dll
+/Users/hales/Desktop/1150/Assignments/144_BlueBadge/Agile_Project/AgileProject.Data/obj/Debug/net6.0/refint/AgileProject.Data.dll
+/Users/hales/Desktop/1150/Assignments/144_BlueBadge/Agile_Project/AgileProject.Data/obj/Debug/net6.0/AgileProject.Data.pdb
+/Users/hales/Desktop/1150/Assignments/144_BlueBadge/Agile_Project/AgileProject.Data/obj/Debug/net6.0/AgileProject.Data.genruntimeconfig.cache
+/Users/hales/Desktop/1150/Assignments/144_BlueBadge/Agile_Project/AgileProject.Data/obj/Debug/net6.0/ref/AgileProject.Data.dll

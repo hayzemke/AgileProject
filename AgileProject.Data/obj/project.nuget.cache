@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cIjtrEbZWJ807g6jQ99KVc0zRPKm3qCfb2zzUUZ1pQXAYVsvW8w1Sd/I4Ej2q1zewxITMO6H7GotwGSKrtZ8ng==",
+  "dgSpecHash": "pVsvzGf3/ETw3e8E9PRBfxjC5fiiJz434k59P5conWB98Ys0lclQQF6XL9UdeXJmRH00uca/0BBl7aLuJs3E4w==",
   "success": true,
-  "projectFilePath": "/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/Agile_Project/AgileProject.Data/AgileProject.Data.csproj",
+  "projectFilePath": "/Users/hales/Desktop/1150/Assignments/144_BlueBadge/Agile_Project/AgileProject.Data/AgileProject.Data.csproj",
   "expectedPackageFiles": [
     "/Users/hales/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/hales/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",

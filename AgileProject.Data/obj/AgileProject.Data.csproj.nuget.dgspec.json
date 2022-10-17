@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/Agile_Project/AgileProject.Data/AgileProject.Data.csproj": {}
+    "/Users/hales/Desktop/1150/Assignments/144_BlueBadge/Agile_Project/AgileProject.Data/AgileProject.Data.csproj": {}
   },
   "projects": {
-    "/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/Agile_Project/AgileProject.Data/AgileProject.Data.csproj": {
+    "/Users/hales/Desktop/1150/Assignments/144_BlueBadge/Agile_Project/AgileProject.Data/AgileProject.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/Agile_Project/AgileProject.Data/AgileProject.Data.csproj",
+        "projectUniqueName": "/Users/hales/Desktop/1150/Assignments/144_BlueBadge/Agile_Project/AgileProject.Data/AgileProject.Data.csproj",
         "projectName": "AgileProject.Data",
-        "projectPath": "/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/Agile_Project/AgileProject.Data/AgileProject.Data.csproj",
+        "projectPath": "/Users/hales/Desktop/1150/Assignments/144_BlueBadge/Agile_Project/AgileProject.Data/AgileProject.Data.csproj",
         "packagesPath": "/Users/hales/.nuget/packages/",
-        "outputPath": "/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/Agile_Project/AgileProject.Data/obj/",
+        "outputPath": "/Users/hales/Desktop/1150/Assignments/144_BlueBadge/Agile_Project/AgileProject.Data/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/hales/.nuget/NuGet/NuGet.Config"
@@ -55,7 +55,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -64,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
         }
       }
     }

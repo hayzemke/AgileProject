@@ -67,7 +67,7 @@ public class CharacterController : ControllerBase
         await _context.SaveChangesAsync();
         return Ok("Your character has been updated");
     }
-    //Delete
+    //Deler
     [HttpDelete]
     [Route("{id}")]
     public async Task<IActionResult> DeleteCharacter([FromRoute] int id)
